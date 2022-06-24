@@ -9,11 +9,11 @@
     <title>Pyscript Demo</title>
 </head>
 <body>
-    <h2>This is the GOAT Hello World Code !</h2>
+    <!-- <h2>This is the GOAT Hello World Code !</h2> -->
+    <div id="output" class="text-3xl"></div>
     <py-script> 
-        text = "Hello World !" 
-        console.log(text)
-        print(text)
+        text = "Hello World !"
+        pyscript.write('output', text)
     </py-script>
 </body>
 </html>
